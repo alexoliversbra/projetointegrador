@@ -3,7 +3,7 @@ const submitButton = document.getElementById("submit");
 submitButton.onclick = () => {
   // Recebe dados do forms quando clicado no botão Gerar
   const imagem = document.getElementById("url").value;
-    const username = document.getElementById("name").value;
+    const username = document.getElementById("nome").value;
     const empresa = document.getElementById("empresa").value;
     const cargo = document.getElementById("cargo").value;
     const tel = document.getElementById("tel").value;

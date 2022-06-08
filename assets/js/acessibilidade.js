@@ -1,4 +1,4 @@
-const caixaDeTextos = document.querySelector('#Conteudo')
+const caixaDeTextos = document.querySelector('#conteudo')
 
 function diminuirLetra(targetElement) {
     let actualFontSize = (window.getComputedStyle(targetElement).fontSize).replace("px", "")
