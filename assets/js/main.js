@@ -7,6 +7,8 @@ submitButton.onclick = () => {
     const empresa = document.getElementById("empresa").value;
     const cargo = document.getElementById("cargo").value;
     const tel = document.getElementById("tel").value;
+    const cidade = document.getElementById("cidade").value;
+    const uf = document.getElementById("uf").value;
     const email = document.getElementById("email").value;
     const site = document.getElementById("site").value;
     const check = document.getElementById("check").value;
@@ -22,6 +24,7 @@ submitButton.onclick = () => {
           `<div style="margin-left: 0px;">${empresa}</div>` +
           `<div style="margin-left: 0px;">Tel: ${tel}</div>` +
           `<br>`+
+          `<div style="margin-left: 0px;">${cidade} - ${uf}</div>` +
           `<div style="margin-left: 0px;">${email}</div>` +
           `<a href="${site}" style="margin-left: 0px;">${site}</a>` +
       `</td>` +
@@ -45,3 +48,4 @@ if(document.getElementById("check").checked){
   // local para adicionar ao banco de dados 
 }
 };
+
