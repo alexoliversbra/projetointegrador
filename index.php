@@ -60,46 +60,46 @@
     <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <section class="contact-clean" style="height: 750px;padding: 20px 0;background: var(--secondary);">
-                        <form method="post" style="height: 700px;">
+                    <section class="contact-clean" style="height: 610px;padding: 5px 0;background: var(--secondary);">
+                        <form method="post" style="height: 600px;">
                             <h2 class="text-center" style="font-size: 16px;">Personalize sua Assinatura Eletrônica<br></h2>
                             <div class="form-group">
-                                <input class="form-control" type="text" id="url" placeholder="URL da Imagem" style="line-height: 12px;padding: 1px 3px;padding-right: 3px;padding-top: 1px;padding-bottom: 1px;padding-left: 3px;height: 30px;">
+                                <input class="form-control" type="text" id="url" placeholder="URL da Imagem" style="line-height: 10px;padding: 1px 1px;padding-right: 1px;padding-top: 1px;padding-bottom: 1px;padding-left: 1px;height: 20px;">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="text" id="nome" placeholder="Nome e sobrenome" style="line-height: 12px;height: 30px;padding: 1px 3px;">
+                                <input class="form-control" type="text" id="username" placeholder="Nome e sobrenome" style="line-height: 10px;height: 20px;padding: 1px 1px;">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="text" id="cargo" placeholder="Cargo" style="height: 30px;padding: 1px 3px;line-height: 12px;">
+                                <input class="form-control" type="text" id="cargo" placeholder="Cargo" style="height: 20px;padding: 1px 1px;line-height: 10px;">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="text" id="empresa" placeholder="Nome da Empresa" style="height: 30px;padding: 1px 3px;line-height: 12px;">
+                                <input class="form-control" type="text" id="empresa" placeholder="Nome da Empresa" style="height: 20px;padding: 1px 1px;line-height: 10px;">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="tel" id="tel" placeholder="DDD + Telefone" style="height: 30px;padding: 1px 3px;line-height: 12px;">
+                                <input class="form-control" type="tel" id="tel" placeholder="DDD + Telefone" style="height: 20px; padding: 1px 1px;line-height: 10px;">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" value="" type="text" id="cep" placeholder="CEP" style="height: 30px;padding: 1px 3px;line-height: 12px;" oninput="pesquisacep(this.value);">
+                                <input class="form-control" value="" type="text" id="cep" placeholder="CEP" style="height: 20px; padding: 1px 1px;line-height: 10px;" oninput="pesquisacep(this.value);">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="text" id="cidade" placeholder="Cidade" style="height: 30px;padding: 1px 3px;line-height: 12px;">
+                                <input class="form-control" type="text" id="cidade" placeholder="Cidade" style="height: 20px;padding: 1px 1px;line-height: 10px;">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="text" id="uf" placeholder="UF" style="height: 30px;padding: 1px 3px;line-height: 12px;">
+                                <input class="form-control" type="text" id="uf" placeholder="UF" style="height: 20px;padding: 1px 1px;line-height: 10px;">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="hidden" id="ibge" placeholder="IBGE" style="height: 30px;padding: 1px 3px;line-height: 12px;">
+                                <input class="form-control" type="hidden" id="ibge" placeholder="IBGE" style="height: 20px;padding: 1px 1px;line-height: 10px;">
                             </div>
                             <div class="form-group">
-                                <input class="form-control is-invalid" type="email" id="email" placeholder="E-mail" style="height: 30px;padding: 1px 3px;line-height: 12px;">
-                                <small class="form-text text-danger">Please enter a correct email address.</small>
+                                <input class="form-control is-invalid" type="email" id="email" placeholder="E-mail" style="height: 20px;padding: 1px 1px;line-height: 10px;">
+                                <small class="form-text text-danger">Insira corretamente o endereço de e-mail.</small>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="text" id="site" placeholder="Site (Opcional)" style="height: 30px;padding: 1px 3px;font-size: 12px;line-height: 12px;">
+                                <input class="form-control" type="text" id="site" placeholder="Site (Opcional)" style="height: 20px;padding: 1px 1px;font-size: 10px;line-height: 10px;">
                             </div>
                             <div class="form-group">
                                 <input class="form-check-input" type="checkbox" value="" id="check" checked>
-                                <label class="form-check-label" for="flexCheckChecked" style="height: 30px;padding: 1px 3px;font-size: 12px;line-height: 12px;">
+                                <label class="form-check-label" for="flexCheckChecked" style="height: 20px;padding: 1px 1px;font-size: 10px;line-height: 10px;">
                                     Estou de acordo em fornecer minhas informações e ciente de que poderão ser usadas apenas para melhorias internas do sistema.
                                 </label>
                             </div>
